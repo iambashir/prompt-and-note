@@ -1,0 +1,14 @@
+		Version Check
+-----------------------------------------------------
+Java (JDK-Java Development Kit)	➜  java --version
+Maven				➜  mvn -v
+Angular				➜  ng v or  ng version
+Node.js				➜  node --version  or node -v
+NPM (Node Package Manager)	➜  npm --version or npm -v
+TypeScript			➜  tsc -v
+Postgres			➜  postgres --version
+MySQL				➜  mysql --version
+MongoDB				➜  mongod --version
+Available SQL Database Check	➜ sc query | findstr /I "SQL"
+SQL Server			➜ sqlcmd -S localhost\SQLEXPRESS -E -Q "SELECT @@VERSION"
+C#				➜ dotnet --version or dotnet --info
