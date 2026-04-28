@@ -1,0 +1,159 @@
+I want to build a complete ASP.NET Core Web API (latest .NET version) project following a clean, professional, layered architecture.
+
+Your task is to generate a full working CRUD application based ONLY on the entity properties I provide.
+
+---
+
+Requirements
+
+Architecture Layers (Must Follow)
+
+* Entity (Model)
+* DTO
+* Repository (Interface + Implementation)
+* Service (Interface + Implementation)
+* Controller
+
+---
+
+Project Structure (Must Provide First)
+Provide a clean folder structure like:
+
+* Controllers
+* Models
+* DTOs
+* Data (DbContext)
+* Repositories
+* Services
+* Mapping (for AutoMapper)
+* Validators (for FluentValidation)
+
+---
+
+Configuration Files (Must Include Full Code)
+Generate complete configuration for:
+
+* Program.cs
+* appsettings.json
+* launchSettings.json
+* <ProjectName>.csproj
+
+---
+
+Database
+Use Entity Framework Core with SQL Server
+
+Connection string:
+"DefaultConnection": "Server=DESKTOP-ROBDQD1;Database=customer_db;Trusted_Connection=True;TrustServerCertificate=True"
+
+---
+
+Features to Implement
+
+1. CRUD Operations
+
+* Create
+* Get All
+* Get By Id
+* Update
+* Delete
+* Delete All
+
+All operations must be async/await based
+
+---
+
+2. DTO Usage
+
+* Use DTO instead of exposing Entity directly
+* Separate Create/Update DTO if needed
+
+---
+
+3. AutoMapper (Must Use)
+
+* Create Mapping Profile
+* Map DTO ↔ Entity properly
+* Register AutoMapper in Program.cs
+
+---
+
+4. FluentValidation (Must Use)
+
+* Create Validator class for DTO
+* Add validation rules (Required, Email, Length, etc.)
+* Integrate FluentValidation in pipeline
+
+---
+
+5. Clean Code Rules
+
+* Use Dependency Injection properly
+* Follow SOLID principles
+* Keep controller thin (business logic in service)
+* Proper async usage
+* Handle null checks
+
+---
+
+6. API Standards
+
+* Proper HTTP status codes (200, 201, 404, etc.)
+* Use IActionResult
+* Route: api/[controller]
+
+---
+
+7. Migration Commands
+   Provide EF Core migration commands:
+
+* Add-Migration
+* Update-Database
+
+---
+
+Input (Dynamic Part)
+
+I will ONLY provide:
+
+* Entity table name
+* Entity properties like:
+
+FullName (string)
+PhoneNumber (string)
+Email (string)
+BirthDate (DateTime)
+Salary (double)
+MeritalStatus (bool)
+Gender (string)
+City (string)
+ZipCode (int)
+Address (string)
+
+---
+
+Output Expectation
+
+Based on the above input, you must:
+
+1. Generate the Entity class (Table name will be included as per Entity class)
+2. Generate DTO(s)
+3. Generate Repository + Service + Controller
+4. Generate AutoMapper Profile
+5. Generate FluentValidation class
+6. Generate full configuration files
+7. Ensure the project is ready to run without modification
+
+---
+
+Important Rules
+
+* Do NOT skip any layer
+* Do NOT hardcode values unrelated to the entity
+* Do NOT add unnecessary features unless required
+* Keep naming consistent (e.g., Customer, Product based on context)
+* Code must be clean, readable, and production-standard
+
+---
+
+Now generate the complete project based on the entity table name and properties I provide.

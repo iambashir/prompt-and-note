@@ -1,7 +1,7 @@
-➡️ Google Angular Folder: https://drive.google.com/drive/folders/1GPo8kD_G7xcXttFwmR3z9WcOnYtJxvqB?usp=sharing
+➡️ Angular - (Google Drive Folder): https://drive.google.com/drive/folders/1GPo8kD_G7xcXttFwmR3z9WcOnYtJxvqB?usp=sharing
 
-➡️ Google C# Folder: https://drive.google.com/drive/folders/1-bMCBeSvCNBhR8xbdGc4J9RHXgFB_JVu?usp=sharing
+➡️ C# - (Google Drive Folder): https://drive.google.com/drive/folders/1-bMCBeSvCNBhR8xbdGc4J9RHXgFB_JVu?usp=sharing
 
-➡️ C# and ASP.NET: https://docs.google.com/document/d/19HJeEaQeMd3ufNfEjUpzkOPtjHKoKx_hRb2WCGb219Q/edit?usp=sharing
+➡️ C# and ASP.NET - (Google Sheet): https://docs.google.com/document/d/19HJeEaQeMd3ufNfEjUpzkOPtjHKoKx_hRb2WCGb219Q/edit?usp=sharing
 
-➡️ CRUD in Blazor: https://docs.google.com/document/d/1HaLgLuPySKud05jy3o9dp3PeWlbr5MU2ed_V0v80mPc/edit?usp=sharing
+➡️ CRUD in Blazor - (Google Sheet): https://docs.google.com/document/d/1HaLgLuPySKud05jy3o9dp3PeWlbr5MU2ed_V0v80mPc/edit?usp=sharing
