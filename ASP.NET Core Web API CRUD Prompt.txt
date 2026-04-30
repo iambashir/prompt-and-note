@@ -117,7 +117,7 @@ Input (Dynamic Part)
 I will ONLY provide:
 
 * Entity table name
-* Entity properties like:
+* Entity properties like (Entity name: Customer):
 
 FullName (string)
 PhoneNumber (string)
@@ -136,7 +136,7 @@ Output Expectation
 
 Based on the above input, you must:
 
-1. Generate the Entity class (Table name will be included as per Entity class)
+1. Generate the Entity class
 2. Generate DTO(s)
 3. Generate Repository + Service + Controller
 4. Generate AutoMapper Profile

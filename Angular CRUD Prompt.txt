@@ -1,0 +1,215 @@
+I want to build a complete Angular 17 CRUD application following a clean, scalable, and professional architecture.
+
+Your task is to generate a full working Angular frontend application based ONLY on the entity properties I provide.
+
+---
+
+Requirements
+
+Architecture (Must Follow)
+
+Use Angular 17 standalone components and modern best practices:
+
+* Standalone Components (NO NgModules)
+* Feature-based folder structure
+* Separation of concerns (UI, Service, Model)
+
+---
+
+Project Structure (Must Provide First)
+
+Provide a clean structure like:
+
+* src/app/
+
+  * core/
+
+    * services/
+    * interceptors/
+  * features/
+
+    * <entity-name>/
+
+      * components/
+
+        * list/
+        * form/
+        * details/
+      * services/
+      * models/
+  * shared/
+
+    * components/
+    * pipes/
+    * directives/
+
+---
+
+API Integration
+
+Backend API Base URL:
+https://localhost:5001/api/<entity-name>
+
+Must use Angular HttpClient
+
+---
+
+Features to Implement
+
+1. Full CRUD UI
+
+* Create (Form)
+* Update (Form)
+* Delete (with confirmation)
+* Delete All(with confirmation)
+* Get All (List view with table)
+* Get By Id (Details view)
+
+---
+
+2. Forms (Reactive Forms)
+
+* Use Reactive Forms ONLY
+* Proper form validation:
+
+  * Required
+  * Email
+  * Min/Max Length
+* Show validation error messages in UI
+
+---
+
+3. Model (Dynamic)
+
+Based on provided entity properties, generate:
+
+* TypeScript interface (Model)
+* Use strict typing everywhere
+
+---
+
+4. Service Layer
+
+* Create service for API communication
+* Methods:
+
+  * getAll()
+  * getById(id)
+  * create(data)
+  * update(id, data)
+  * delete(id)
+  * deleteAll
+* Use Observable & RxJS
+* Proper error handling
+
+---
+
+5. UI Design
+
+* Use clean and modern UI (Bootstrap / Angular Material)
+* Responsive layout
+* Table for listing
+* Form for Create/Update
+* Buttons: Edit, Delete, View
+
+---
+
+6. Routing
+
+Configure routes:
+
+* /<entity-name> → list
+* /<entity-name>/create → create form
+* /<entity-name>/edit/:id → update form
+* /<entity-name>/:id → details
+
+---
+
+7. State Handling
+
+* Use component-level state (no NgRx required)
+* Proper loading indicators
+* Error handling UI
+
+---
+
+8. Reusability
+
+* Reusable form component for Create & Update
+* Shared input components if needed
+
+---
+
+9. Clean Code Rules
+
+* Strong typing (strict mode)
+* No business logic in component (keep in service)
+* Use async pipe where possible
+* Proper folder naming conventions
+* Follow SOLID principles
+
+---
+
+10. Extra (Must Include)
+
+* HTTP Interceptor for:
+
+  * Base URL
+  * Error handling
+* Confirmation dialog before delete
+
+---
+
+Input (Dynamic Part)
+
+I will ONLY provide:
+
+Entity Name:
+Customer
+
+Entity Properties (Entity name: Customer):
+
+FullName (string)
+PhoneNumber (string)
+Email (string)
+BirthDate (Date)
+Salary (number)
+MeritalStatus (boolean)
+Gender (string)
+City (string)
+ZipCode (number)
+Address (string)
+
+---
+
+Output Expectation
+
+Based on the above input, you must:
+
+1. Generate folder structure
+2. Generate Model (interface)
+3. Generate Service (full CRUD)
+4. Generate Components:
+
+   * List Component
+   * Form Component (Create + Update)
+   * Details Component
+5. Generate Routing configuration
+6. Generate Reactive Forms with validation
+7. Generate HTML + TypeScript + minimal CSS
+8. Generate HTTP Interceptor
+9. Ensure project is runnable without modification
+
+---
+
+Important Rules
+
+* Do NOT use NgModules
+* Do NOT skip any layer
+* Do NOT hardcode values unrelated to entity
+* Keep code clean, readable, production-ready
+* Follow Angular 17 latest best practices
+
+---
+
+Now generate the complete Angular 17 CRUD frontend based on the entity I provide.
