@@ -1,3 +1,6 @@
+ASP.NET Core Web API CRUD prompt (Before apply this prompt change two things: 1. .NET version and Entity properties)
+----------------------------------------------------------------------------------------------------------------------
+
 I want to build a complete ASP.NET Core Web API (latest .NET version) project following a clean, professional, layered architecture.
 
 Your task is to generate a full working CRUD application based ONLY on the entity properties I provide.
