@@ -1,0 +1,14 @@
+Go to project directory then open the terminal and run the Command
+-----------------------------------------------------------------------
+dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection
+dotnet add package FluentValidation.AspNetCore
+
+
+# 1. Clean old certificate (recommended)
+dotnet dev-certs https --clean
+
+# 2. Generate new developer certificate
+dotnet dev-certs https
+
+# 3. Trust the certificate (Very Important)
+dotnet dev-certs https --trust
