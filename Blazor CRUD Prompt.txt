@@ -1,0 +1,297 @@
+I want to build a complete Blazor App CRUD application using the latest .NET version following a clean, scalable, and professional layered architecture.
+
+Your task is to generate a FULL working Blazor CRUD application based ONLY on the entity properties I provide.
+
+---
+
+Application Type (Must Support)
+
+Use:
+* Blazor Web App (.NET 8/9 latest)
+OR
+* Blazor Server App
+
+(Use the latest recommended Microsoft architecture)
+
+---
+
+Architecture Layers (Must Follow)
+
+* Models (Entity)
+* DTOs
+* Data (DbContext)
+* Repository (Interface + Implementation)
+* Services (Interface + Implementation)
+* Components/Pages
+* Mapping (AutoMapper)
+* Validators (FluentValidation)
+
+---
+
+Project Structure (Must Provide First)
+
+Provide a clean professional folder structure like:
+
+* Components
+* Pages
+* Models
+* DTOs
+* Data
+* Repositories
+* Services
+* Mapping
+* Validators
+* wwwroot
+* Shared
+
+---
+
+Database
+
+Use:
+* Entity Framework Core
+* SQL Server
+
+Connection String:
+"DefaultConnection": "Server=DESKTOP-ROBDQD1;Database=customer_db;Trusted_Connection=True;TrustServerCertificate=True"
+
+---
+
+Features to Implement
+
+1. Full CRUD Operations
+
+* Create
+* Get All
+* Get By Id
+* Update
+* Delete
+* Delete All
+
+All operations must use:
+* async/await
+* proper error handling
+
+---
+
+2. DTO Usage (Must Use)
+
+* Do NOT expose Entity directly
+* Use CreateDTO
+* Use UpdateDTO
+* Use ResponseDTO if needed
+
+---
+
+3. AutoMapper (Must Use)
+
+* Create Mapping Profile
+* Map DTO ↔ Entity properly
+* Register AutoMapper in Program.cs
+
+---
+
+4. FluentValidation (Must Use)
+
+* Create Validator class
+* Add validation rules
+* Integrate validation into Blazor forms
+
+Examples:
+* Required
+* Email validation
+* MinLength
+* MaxLength
+* Range validation
+
+---
+
+5. Blazor UI Requirements
+
+Generate complete responsive UI pages using Razor Components.
+
+Must Include:
+* Data Table/Grid
+* Create Form
+* Edit Form
+* Delete Confirmation
+* Validation Messages
+* Loading Indicator
+* Toast/Snackbar Message if possible
+
+Use:
+* Bootstrap 5 UI
+OR
+* MudBlazor (Preferred if possible)
+
+---
+
+6. Razor Components
+
+Generate complete:
+* List Page
+* Create Page
+* Edit Page
+* Details Page
+
+Use:
+* @page
+* Dependency Injection
+* EventCallback if needed
+* NavigationManager
+
+---
+
+7. Form Handling
+
+Use:
+* EditForm
+* Data Binding
+* ValidationSummary
+* ValidationMessage
+* InputText
+* InputNumber
+* InputDate
+
+---
+
+8. API Communication (If Using Separate API)
+
+If architecture uses Web API:
+* Use HttpClient
+* Create API Service Layer
+* Configure BaseAddress properly
+
+If NOT using separate API:
+* Use direct EF Core DbContext through Service Layer
+
+---
+
+9. Clean Code Rules
+
+* Follow SOLID principles
+* Keep UI logic clean
+* Business logic must stay in Service layer
+* Use Dependency Injection properly
+* Use nullable checks
+* Use async everywhere possible
+* Production-standard naming conventions
+
+---
+
+10. Configuration Files (Must Include Full Code)
+
+Generate complete code for:
+
+* Program.cs
+* appsettings.json
+* launchSettings.json
+* <ProjectName>.csproj
+
+---
+
+11. Entity Framework Migration Commands
+
+Provide:
+
+* Add-Migration InitialCreate
+* Update-Database
+
+---
+
+12. Navigation Menu
+
+Update navigation/menu automatically for the generated entity pages.
+
+Example:
+* Customers
+* Products
+* Employees
+
+---
+
+13. UI/UX Requirements
+
+* Professional responsive design
+* Mobile-friendly
+* Clean layout
+* Proper spacing
+* Bootstrap cards/tables/forms
+* Loading states
+* Empty state handling
+
+---
+
+14. Error Handling
+
+Handle:
+* Null reference issues
+* Database exceptions
+* Validation failures
+* Not found scenarios
+
+Show user-friendly messages.
+
+---
+
+Input (Dynamic Part)
+
+I will ONLY provide:
+
+* Entity table name
+* Entity properties
+
+Example:
+
+Entity Name: Customer
+
+Properties:
+
+FullName (string)
+PhoneNumber (string)
+Email (string)
+BirthDate (DateTime)
+Salary (double)
+MeritalStatus (bool)
+Gender (string)
+City (string)
+ZipCode (int)
+Address (string)
+
+---
+
+Output Expectation
+
+Based on the entity properties I provide, generate:
+
+1. Entity class
+2. DTO classes
+3. DbContext
+4. Repository Interface + Implementation
+5. Service Interface + Implementation
+6. AutoMapper Profile
+7. FluentValidation Validators
+8. Razor Pages/Components
+9. CRUD UI
+10. Navigation Menu Update
+11. Program.cs
+12. appsettings.json
+13. launchSettings.json
+14. Complete Dependency Injection setup
+15. Migration commands
+
+---
+
+Important Rules
+
+* Do NOT skip any layer
+* Do NOT use placeholder code
+* Do NOT leave incomplete methods
+* Keep naming consistent
+* Code must be clean and production-ready
+* All pages/components must be fully functional
+* The application must run without modification
+
+---
+
+Now generate the complete Blazor CRUD application based on the entity name and properties I provide.
